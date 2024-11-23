@@ -17,7 +17,7 @@ const multiplyEvenNumbers = (array) => {
 
 const updateOutput = (result) => {
     const outputDiv = document.getElementById('output');
-    outputDiv.textContent = result.join(', ');
+    outputDiv.textContent = result.join(',');
 };
 
 const inputArray = [1, 2, 3, 4];
